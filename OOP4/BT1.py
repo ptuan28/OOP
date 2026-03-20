@@ -44,7 +44,7 @@ class Nhanvien:
         print("He so luong: ", self.__hesoluong)
         print("Luong: ", self.tinhluong())
 nv = Nhanvien("Phan Anh Tuan", 5000000000, 5 ,)
-#nv.inTTin()
+
 print("Tên Nhân Viên: ", nv.get_ten())
 print("Lương cơ bản: ", nv.get_luongcb())
 print("Hệ số lương: ", nv.get_hesoluong())
