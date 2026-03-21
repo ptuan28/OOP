@@ -1,5 +1,5 @@
 class Nhanvien:
-    Luong_Max = 20000000
+    Luong_Max = 200000000
     
     def __init__(self, ten, luongcb, hesoluong):
         self.__ten = ten
@@ -43,7 +43,7 @@ class Nhanvien:
         print("Luong co ban: ", self.__luongcb)
         print("He so luong: ", self.__hesoluong)
         print("Luong: ", self.tinhluong())
-nv = Nhanvien("Phan Anh Tuan", 5000000000, 5 ,)
+nv = Nhanvien("Phan Anh Tuan", 500000, 3)
 
 print("Tên Nhân Viên: ", nv.get_ten())
 print("Lương cơ bản: ", nv.get_luongcb())
