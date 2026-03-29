@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+#demo code chatGPT không tính bài tập BTNC, chỉ để tham khảo cách làm game bài poker đơn giản bằng HTML/CSS/JS.
+
+
+
+
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -277,8 +281,8 @@
 <body>
 
 <header>
-  <h1>♠ ROYAL <span>POKER</span> ♠</h1>
-  <div class="subtitle">Texas Hold'em — Single Player</div>
+  <h1>♠ TUẤN <span>POKER</span> ♠</h1>
+  <div class="subtitle">VUA PỊP DÂN TỘC NỘI TRÚ — BÚ CẶC</div>
 </header>
 
 <div id="table">
@@ -402,11 +406,11 @@ function score5(cards) {
 // GAME STATE
 // ═══════════════════════════════════════════
 const BOTS = [
-  { name:'Bot Alpha', chips:1000 },
-  { name:'Bot Beta',  chips:1000 },
-  { name:'Bot Gamma', chips:1000 },
+  { name:'THẰNG NGU 1', chips:1000 },
+  { name:'THẰNG NGU 2', chips:1000 },
+  { name:'THẰNG NGU 3', chips:1000 },
 ];
-const HUMAN = { name:'Bạn', chips:15000 };
+const HUMAN = { name:'VUA', chips:15000 };
 
 let deck=[], community=[], pot=0, currentBet=0, round=0, phase=0;
 // phases: 0=pre, 1=flop, 2=turn, 3=river, 4=showdown
