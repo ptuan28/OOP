@@ -112,7 +112,7 @@ for i in range(n):
         except MauSoBangKhong as e:
             print(e)
         except ValueError:
-            print("Lỗi: Sai định dạng hoặc không phải số nguyên")
+            print("không phải phân số")
         except Exception as e:
             print(f"Lỗi không xác định: {e}")
 
