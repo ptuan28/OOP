@@ -1,0 +1,3 @@
+`NhanVien(ho_ten='Phan Anh T', nam_sinh=1995, gioi_tinh='Nam', dia_chi='DN', cong_viec='Lập trình viên')
+`KySu(ho_ten='Nguyen Thi H', nam_sinh=1992, gioi_tinh='Nu', dia_chi='HN', nganh_dao_tao='CNTT')
+`CongNhan(ho_ten='Phan Van N A', nam_sinh=1990, gioi_tinh='Nam', dia_chi='Hanoi', cap_bac=3)
